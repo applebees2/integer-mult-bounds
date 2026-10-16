@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/e8-bit-carrier-skeleton/code/bit/export_records.py",
+    "research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+    "research/r439-bsection-stars-seed01/verify.py",
+    "research/r439-copyshare-h2sem-admission/CERTIFICATE.json",
+    "research/r439-copyshare-h2sem-admission/verify.py"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "661 arbitrary-dirty columns both directions; dense exact positive rows versus exported records; unchanged frame/copy profile; five corruption/strict-cap controls"
+    }
+  ]
+}

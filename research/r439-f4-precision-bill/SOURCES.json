@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "base_commit": "4bb3629e638edc9d70ea124eb50f80e71433be05",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "b1fea0c94436b236cc2b7d41a7be032811b94c81",
+      "sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "889b95d936746df124872133ae1e7cc339adcb92",
+      "sha256": "7d185cd8c2af35988d638d969748ad7b670f902606444dbfc748e4402c340df6"
+    },
+    {
+      "path": "research/e8-bit-carrier-skeleton/code/bit/export_records.py",
+      "usage": "input",
+      "git_blob": "3632d370486a02f5456f7643ced03f8c925b2350",
+      "sha256": "8a5999601f917dbb492bb9ae9a344611f18cc7cedc53dc3c76496a369e530eb3"
+    },
+    {
+      "path": "research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+      "usage": "input",
+      "git_blob": "85a4499bf9e4911a705d50567a2c2ef6cf23739a",
+      "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f"
+    },
+    {
+      "path": "research/r439-bsection-stars-seed01/verify.py",
+      "usage": "input",
+      "git_blob": "be296a579cef6722786d589652f73662a92252fb",
+      "sha256": "eb387243b9071a0309e04248bc088fe6f33067e39f87d9fcd1785866020b97ee"
+    },
+    {
+      "path": "research/r439-copyshare-h2sem-admission/CERTIFICATE.json",
+      "usage": "input",
+      "git_blob": "a874a9840acd80474c92ca01e035929163bc08aa",
+      "sha256": "2678eaa3049cb208c6914be61cff93a72965b44e3abdf847c17595c9b7013594"
+    },
+    {
+      "path": "research/r439-copyshare-h2sem-admission/verify.py",
+      "usage": "input",
+      "git_blob": "e24e90390acc3f032041da98340288c21ad398b3",
+      "sha256": "09400f88e9e598bc6022ba32fcc6f9d1f048c5106b4d73b02a6f9f318be1c812"
+    }
+  ]
+}

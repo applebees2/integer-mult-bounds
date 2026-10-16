@@ -1,0 +1,52 @@
+{
+  "bills": {
+    "F4": {
+      "ADDs": 24374,
+      "B": 2995586,
+      "COPYs": 9,
+      "ERASEs": 9,
+      "F": 50535,
+      "local_bits": 96,
+      "local_numerator": 74117432844898582480048224000,
+      "nine_stage_bits": 183,
+      "nine_stage_numerator": 6957103126489666085304959651569977533363295446630400000,
+      "records_sha256": "cf13a714e407220c1924aa6de847f8cb99df6749d3b9a34aa560d36216c197b5",
+      "word_canonical_sha256": "ded49bed0abf8d7280ccee977add8c2159a8d8fc934d72c1fe6a14d732dd2291"
+    },
+    "baseline": {
+      "ADDs": 24305,
+      "B": 1113070,
+      "COPYs": 9,
+      "ERASEs": 9,
+      "F": 49347,
+      "local_bits": 93,
+      "local_numerator": 9528119495320518471870892800,
+      "nine_stage_bits": 177,
+      "nine_stage_numerator": 117742596540718658156527847560864213734191286190080000,
+      "records_sha256": "ea44aa047a2a9cf034de8b56b2166c49cf2dbdf9cd9ed6a20299a4f2b05ef09a",
+      "word_canonical_sha256": "5642fd0e35a1acc11acff8d0c08350c1617e95f310d4d35ad63a651f9eeeba0b"
+    }
+  },
+  "columns": 661,
+  "controls": [
+    "restore_after_target_write",
+    "omitted_helper_restore",
+    "omitted_native_ERASE",
+    "equality_at_104_bit_cap",
+    "equality_at_192_bit_cap"
+  ],
+  "directions": 2,
+  "kappa_claim": null,
+  "native_cpp_replay": false,
+  "paid_profile": {
+    "1": 1323,
+    "2": 1342,
+    "3": 79,
+    "4": 44,
+    "5": 102,
+    "6": 11,
+    "7": 19
+  },
+  "paid_rank_mass": 5129,
+  "status": "PASS_R439_F4_PRECISION_BILL"
+}
